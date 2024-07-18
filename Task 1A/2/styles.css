@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:hover td {
+    border-bottom: 1px solid #337ab7;
+}
+
+td ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+td ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+td ul li:last-child {
+    border-bottom: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23527c;
+}
