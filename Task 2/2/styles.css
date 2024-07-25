@@ -1,0 +1,40 @@
+/* styles.css */
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.dropdown-menu {
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.dropdown-divider {
+    background-color: #666;
+    height: 2px;
+    margin: 10px 0;
+}
